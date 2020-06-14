@@ -1,0 +1,193 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+<title>Rutvij Khatri - Curriculum Vitae</title>
+
+<meta name="viewport" content="width=device-width"/>
+<meta name="description" content="The Curriculum Vitae of Rutvij Khatri."/>
+<meta charset="UTF-8">
+
+<link type="text/css" rel="stylesheet" href="{% static 'css/style.css' %}">
+<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+</head>
+<body id="top">
+<div id="cv" class="instaFade">
+	<div class="mainDetails">
+		<div id="headshot" class="quickFade">
+			<img src="{% static 'images/headshot.jpg' %}" alt="Rutvij Khatri" />
+		</div>
+
+		<div id="name">
+			<h1 class="quickFade delayTwo">Rutvij Khatri</h1>
+			<h3 class="quickFade delayThree">Software Engineer, Data Science Enthusiast</h3>
+		</div>
+
+		<div id="contactDetails" class="quickFade delayFour">
+			<ul>
+				<li>rutvij.khatri@gmail(.)com</a></li>
+				<li><a href="https://www.linkedin.com/in/rutvij-khatri-1s-unik/">LinkedIn Profile</a></li>
+				<li>9886954688</li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+	</div>
+
+	<div id="mainArea" class="quickFade delayFive">
+		<section>
+			<article>
+				<div class="sectionTitle">
+					<h1>Personal Profile</h1>
+				</div>
+
+				<div class="sectionContent">
+					<p>I like learning new stuff online (Technology-based courses and designing tutorials).Very much interested in Data Science and Cyber Security as of now. Reading mystery genre novel is one of my hobbies as it helps me improve my analytical skills.</p>
+				</div>
+			</article>
+			<div class="clear"></div>
+		</section>
+
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Work Experience</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article>
+					<h2>Cognizant Technology Solutions</h2>
+					<p class="subDetails">February 2020 - June 2020</p>
+					<p>Business Associate Intern</p>
+					<p>Core Java and Soft-skills training for the first half and Salesforce training for the later half of the internship duration.</p>
+					<p>Was the SPOC (Single Point Of Contact) for the whole batch and was responsible for attendance and resolving issues for the colleague as the internship was converted to a virtual internship.</p>
+				</article>
+
+				<article>
+					<h2>The Spark’s Foundation</h2>
+					<p class="subDetails">February 2019 - March 2019</p>
+					<p>Android Application Development</p>
+					<p>An android app which integrated the already built REST APIs. Made a CRUDable app which could:</p>
+					<ul>
+						<li>Insert Data</li>
+						<li>Retrieve Data</li>
+						<li>Update Data</li>
+					</ul><br>
+					<a href="https://www.youtube.com/watch?v=MI59ILr6w4I&t=3s">Link to Demo</a>
+				</article>
+				<br>
+
+				<!-- <article>
+					<h2>Job Title at Company</h2>
+					<p class="subDetails">October 2004 - December 2006</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus hendrerit. Curabitur non consequat enim. Vestibulum bibendum mattis dignissim. Proin id sapien quis libero interdum porttitor.</p>
+				</article> -->
+			</div>
+			<div class="clear"></div>
+		</section>
+
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Projects</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article>
+					<h2>Credit Card Fraud Detection</h2>
+					<p class="subDetails">Open Lab Project (April 2019)</p>
+					<p>Training and comparing three ML models (Scikit-Learn) - LightGBM, Adaboost Classifier, Random Forest Classifier - to detect fraudulent credit card transactions.</p>
+					<p><strong><u>Python packages used:</u></strong><br>
+						Pandas, Numpy, Scikit-Learn, Matplotlib, etc. </p>
+				</article>
+
+				<article>
+					<h2>Expense Tracking Application</h2>
+					<p class="subDetails">Software Engineering Project (March 2019)</p>
+					<p>A mobile application where in user can track his/her expenses, adding a budget limit for a category of choice
+and get a notification as soon as the budget is about to be crossed. The application also tracks any incoming
+transaction message and the expense is automatically added to the category mentioned in the message</p>
+					<p><strong><u>Core Technologies Used:</u></strong><br>
+						XML, Java, Firebase Firestore (NoSQL) <br>
+						<a href="https://github.com/rutvij2811/ExpenseTracker">Link to the Project</a>
+					</p>
+
+					<!-- <p>XML, Java, Firebase Firestore (NoSQL)</p> -->
+				</article>
+
+				<article>
+					<h2>Youtube Playlist Calculator</h2>
+					<p class="subDetails">Personal Project (November 2018)</p>
+					<p>A simple python project used for calculating the total number of videos in a playlist and the time required
+to finish the playlist in Normal Speed,1.5x Speed, 1.75x Speed, 2.0x Speed using the Youtube APIs.</p>
+					<p><strong><u>Python packages used:</u></strong><br>
+						Json, Urllib, Numpy</p>
+				</article>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Key Skills</h1>
+			</div>
+
+			<div class="sectionContent">
+				<ul class="keySkills">
+					<li>Java</li>
+					<li>OOPS</li>
+					<li>Python</li>
+					<li>Data Visualization</li>
+					<li>Oracle SQL</li>
+					<li>Leadership</li>
+					<li>Team Player</li>
+				</ul>
+			</div>
+			<div class="clear"></div>
+		</section>
+
+
+		<section>
+			<div class="sectionTitle">
+				<h1>Education</h1>
+			</div>
+
+			<div class="sectionContent">
+				<article>
+					<h2>Amrita School Of Engineering</h2>
+					<p class="subDetails">B.TECH CSE (2016 - 2020)</p>
+					<p>CGPA : 7.7</p>
+				</article>
+
+				<article>
+					<h2>Satyameva Jayate International School</h2>
+					<p class="subDetails">12<sup>th</sup> (2015 - 2016) </p>
+					<p>Percantage : 71.00</p>
+				</article>
+
+				<article>
+					<h2>Satyameva Jayate International School</h2>
+					<p class="subDetails">10<sup>th</sup> (2013 - 2014)</p>
+					<p>Percantage : 74.38</p>
+				</article>
+
+			</div>
+			<div class="clear"></div>
+		</section>
+
+	</div>
+</div>
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-3753241-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+</body>
+</html>
